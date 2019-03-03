@@ -1,0 +1,36 @@
+<body>
+  <a class="backHome" routerLink="../"><< Back home</a>
+<h1>Line Chart 1</h1>
+<h3> Here is a chart showing the differences between red and green's height over the cours of 35 days. 
+  This doesn't make any sense as a concept, however it is a good way to get some practice with ngx-charts.
+  Here's some more lorem ipsum type stuff to see how the text comes out in relation to the graph. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+  Etiam feugiat in neque at semper. Pellentesque semper faucibus euismod. Mauris bibendum velit magna, quis ultricies massa faucibus quis. 
+  Maecenas vitae lectus vitae nunc sagittis malesuada id ac felis. Integer vel blandit dolor. Phasellus massa eros, varius nec elit et, molestie luctus urna. 
+  Vivamus non efficitur odio. Donec rhoncus consectetur sodales. Donec porta ex quis efficitur varius. Suspendisse ut tempus lorem.
+
+  Proin id eros ullamcorper, mollis tellus vel, viverra est. Aliquam posuere turpis id luctus vestibulum. Vestibulum ac vehicula leo, eu rutrum tortor. 
+  Maecenas pulvinar nulla in enim varius tempus. Suspendisse maximus, purus quis vulputate eleifend, tortor ex dictum ex, non fringilla metus nisl eget tellus. 
+  Praesent faucibus, lorem nec interdum accumsan, magna nisl dignissim sem, vestibulum convallis justo mauris a felis. 
+  Aenean lacus eros, pretium at tortor nec, blandit auctor ex. Duis vel tristique ex. 
+  Proin sed ex consectetur, laoreet lorem in, suscipit justo. Aenean aliquam facilisis elit non cursus. Phasellus facilisis diam semper ultrices consectetur.
+</h3>
+<div class="graph">
+  <h2>{{ this.title }}</h2>
+<ngx-charts-line-chart
+      [view]="view"
+      [scheme]="colorScheme"
+      [results]="multi"
+      [gradient]="gradient"
+      [xAxis]="showXAxis"
+      [yAxis]="showYAxis"
+      [legend]="showLegend"
+      [showXAxisLabel]="showXAxisLabel"
+      [showYAxisLabel]="showYAxisLabel"
+      [xAxisLabel]="xAxisLabel"
+      [yAxisLabel]="yAxisLabel"
+      [autoScale]="autoScale"
+      [timeline]="timeline"
+      (select)="onSelect($event)">
+  </ngx-charts-line-chart>
+</div>
+</body>
