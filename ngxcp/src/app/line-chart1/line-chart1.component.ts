@@ -72,6 +72,7 @@ export class LineChart1Component implements OnInit {
       ]
     }
   ];
+  
   view: any[] = [700, 400];
 
   // options
