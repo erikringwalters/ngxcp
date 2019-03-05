@@ -8,6 +8,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { HomeComponent } from './home/home.component';
 import { LineChart1Component } from './line-chart1/line-chart1.component';
+import { LineChart2Component } from './line-chart2/line-chart2.component';
 
 
 
@@ -15,7 +16,8 @@ import { LineChart1Component } from './line-chart1/line-chart1.component';
   declarations: [
     AppComponent,
     HomeComponent,
-    LineChart1Component
+    LineChart1Component,
+    LineChart2Component
   ],
   imports: [
     BrowserModule,
