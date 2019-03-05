@@ -9,6 +9,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HomeComponent } from './home/home.component';
 import { LineChart1Component } from './line-chart1/line-chart1.component';
 import { LineChart2Component } from './line-chart2/line-chart2.component';
+import { BubbleChart1Component } from './bubble-chart1/bubble-chart1.component';
 
 
 
@@ -17,7 +18,8 @@ import { LineChart2Component } from './line-chart2/line-chart2.component';
     AppComponent,
     HomeComponent,
     LineChart1Component,
-    LineChart2Component
+    LineChart2Component,
+    BubbleChart1Component
   ],
   imports: [
     BrowserModule,

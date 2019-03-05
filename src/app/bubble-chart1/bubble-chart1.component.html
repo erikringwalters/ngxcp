@@ -1,0 +1,17 @@
+<div class="graph">
+  <h2>{{ this.title }}</h2>
+<ngx-charts-bubble-chart
+      [view]="view"
+      [scheme]="colorScheme"
+      [results]="multi"
+      [xAxis]="showXAxis"
+      [yAxis]="showYAxis"
+      [legend]="showLegend"
+      [showXAxisLabel]="showXAxisLabel"
+      [showYAxisLabel]="showYAxisLabel"
+      [xAxisLabel]="xAxisLabel"
+      [yAxisLabel]="yAxisLabel"
+      [autoScale]="autoScale"
+      (select)="onSelect($event)">
+  </ngx-charts-bubble-chart>
+</div>
