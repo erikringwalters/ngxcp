@@ -97,12 +97,12 @@ export class BubbleChart1Component implements OnInit {
           "name": "1990",
           "x": 26424,
           "y": 75.7,
-          "r": 57.1
+          "r": 5607.1
         }
       ]
     }
   ];
-  
+
   view: any[] = [700, 400];
 
   // options
@@ -118,7 +118,7 @@ export class BubbleChart1Component implements OnInit {
   title = "Bubble chart";
 
   colorScheme = {
-    domain: ['#5AA454', '#A10A28', '#C7B42C', '#AAAAAA']
+    domain: ['#233D4D', '#FE7F2D', '#FCCA46', '#A1C181']
   };
 
   constructor() { }
