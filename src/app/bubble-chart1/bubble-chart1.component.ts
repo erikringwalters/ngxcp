@@ -75,7 +75,13 @@ export class BubbleChart1Component implements OnInit {
           "x": 29476,
           "y": 77.2,
           "r": 56.9
-        }
+        },
+        {
+          "name": "2010",
+          "x": 20535,
+          "y": 5.4,
+          "r": 6300
+        },
       ]
     },
     {
