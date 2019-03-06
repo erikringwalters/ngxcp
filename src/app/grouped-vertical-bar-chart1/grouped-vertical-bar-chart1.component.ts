@@ -18,6 +18,10 @@ export class GroupedVerticalBarChart1Component implements OnInit {
         {
           "name": "2011",
           "value": 8940000
+        },
+        {
+          "name": "2012",
+          "value": 6270000
         }
       ]
     },
@@ -32,6 +36,28 @@ export class GroupedVerticalBarChart1Component implements OnInit {
         {
           "name": "2011",
           "value": 8270000
+        },
+        {
+          "name": "2012",
+          "value": 9834000
+        }
+      ]
+    },
+
+    {
+      "name": "Mexico",
+      "series": [
+        {
+          "name": "2010",
+          "value": 6870000
+        },
+        {
+          "name": "2011",
+          "value": 9270000
+        },
+        {
+          "name": "2012",
+          "value": 10270000
         }
       ]
     }
