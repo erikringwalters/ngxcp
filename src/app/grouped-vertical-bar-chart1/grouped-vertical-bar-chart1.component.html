@@ -1,0 +1,30 @@
+<body>
+    <a class="backHome" routerLink="../"><< Back home</a>
+  
+    <h1>Line Chart 1</h1>
+    <div class="graph">
+     
+      <h3> Blurby blurby blurb Blurby blurby blurbBlurby blurby blurbBlurby blurby blurbBlurby blurby blurbBlurby blurby blurb
+          Blurby blurby blurbBlurby blurby blurbBlurby blurby blurbBlurby blurby blurbBlurby blurby blurbBlurby blurby blurb
+          Blurby blurby blurbBlurby blurby blurbBlurby blurby blurbBlurby blurby blurbBlurby blurby blurbBlurby blurby blurbBlurby blurby blurb
+          Blurby blurby blurbBlurby blurby blurbBlurby blurby blurbBlurby blurby blurbBlurby blurby blurbBlurby blurby blurbBlurby blurby blurbBlurby blurby blurb
+          Blurby blurby blurbBlurby blurby blurbBlurby blurby blurbBlurby blurby blurbBlurby blurby blurbBlurby blurby blurb
+      </h3>
+      <h2>{{ this.title }}</h2>
+      <ngx-charts-bar-vertical-2d
+          class="graph"
+          [view]="view"
+          [scheme]="colorScheme"
+          [results]="multi"
+          [gradient]="gradient"
+          [xAxis]="showXAxis"
+          [yAxis]="showYAxis"
+          [legend]="showLegend"
+          [showXAxisLabel]="showXAxisLabel"
+          [showYAxisLabel]="showYAxisLabel"
+          [xAxisLabel]="xAxisLabel"
+          [yAxisLabel]="yAxisLabel"
+          (select)="onSelect($event)">
+      </ngx-charts-bar-vertical-2d>
+    </div>
+  </body>

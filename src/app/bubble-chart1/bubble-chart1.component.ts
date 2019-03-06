@@ -121,7 +121,7 @@ export class BubbleChart1Component implements OnInit {
   showYAxisLabel = true;
   yAxisLabel = 'Height';
   timeline = true;
-  title = "Bubble chart";
+  title = "Bubble chart 1";
 
   colorScheme = {
     domain: ['#233D4D', '#FE7F2D', '#FCCA46', '#A1C181']

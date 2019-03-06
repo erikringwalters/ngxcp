@@ -10,6 +10,7 @@ import { HomeComponent } from './home/home.component';
 import { LineChart1Component } from './line-chart1/line-chart1.component';
 import { LineChart2Component } from './line-chart2/line-chart2.component';
 import { BubbleChart1Component } from './bubble-chart1/bubble-chart1.component';
+import { GroupedVerticalBarChart1Component } from './grouped-vertical-bar-chart1/grouped-vertical-bar-chart1.component';
 
 
 
@@ -19,7 +20,8 @@ import { BubbleChart1Component } from './bubble-chart1/bubble-chart1.component';
     HomeComponent,
     LineChart1Component,
     LineChart2Component,
-    BubbleChart1Component
+    BubbleChart1Component,
+    GroupedVerticalBarChart1Component
   ],
   imports: [
     BrowserModule,
