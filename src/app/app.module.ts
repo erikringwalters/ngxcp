@@ -11,6 +11,7 @@ import { LineChart1Component } from './line-chart1/line-chart1.component';
 import { LineChart2Component } from './line-chart2/line-chart2.component';
 import { BubbleChart1Component } from './bubble-chart1/bubble-chart1.component';
 import { GroupedVerticalBarChart1Component } from './grouped-vertical-bar-chart1/grouped-vertical-bar-chart1.component';
+import { Scatterplot1Component } from './scatterplot1/scatterplot1.component';
 
 
 
@@ -21,7 +22,8 @@ import { GroupedVerticalBarChart1Component } from './grouped-vertical-bar-chart1
     LineChart1Component,
     LineChart2Component,
     BubbleChart1Component,
-    GroupedVerticalBarChart1Component
+    GroupedVerticalBarChart1Component,
+    Scatterplot1Component
   ],
   imports: [
     BrowserModule,

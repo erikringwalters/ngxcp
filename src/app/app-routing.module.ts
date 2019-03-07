@@ -6,6 +6,7 @@ import { LineChart2Component } from './line-chart2/line-chart2.component';
 import { BubbleChart1Component } from './bubble-chart1/bubble-chart1.component';
 import { GroupedVerticalBarChart1Component } from './grouped-vertical-bar-chart1/grouped-vertical-bar-chart1.component';
 import { HomeComponent } from './home/home.component';
+import { Scatterplot1Component } from './scatterplot1/scatterplot1.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full'},
@@ -14,6 +15,7 @@ const routes: Routes = [
   { path: 'line-chart2', component: LineChart2Component },
   { path: 'bubble-chart1', component: BubbleChart1Component },
   { path: 'grouped-vertical-bar-chart1', component: GroupedVerticalBarChart1Component },
+  { path: 'scatterplot1', component: Scatterplot1Component },
 
 ];
 

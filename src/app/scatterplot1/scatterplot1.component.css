@@ -1,0 +1,10 @@
+body{
+    text-align: center;
+}
+.backHome{
+    float: left;
+}
+.graph{
+    text-align: center;
+    display: inline-block;
+}
