@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import data from './line-chart1_data.json';
 
 @Component({
   selector: 'app-line-chart1',
@@ -7,71 +8,72 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LineChart1Component implements OnInit {
 
-  multi: any[] = [
-    {
-      name: 'Green',
-      series: [
-        {
-          name: 5,
-          value: 2650
-        },
-        {
-          name: 10,
-          value: 2800      
-        },
-        {
-          name: 15,
-          value: 2000
-        },
-        {
-          name: 20,
-          value: 2800      
-        }, 
-        {
-          name: 25,
-          value: 9100      
-        }, 
-        {
-          name: 30,
-          value: 1300      
-        },
-        {
-          name: 35,
-          value: 150      
-        },
-      ]
-    },
-    {
-      name: 'Red',
-      series: [
-        {
-          name: 5,
-          value: 2500
-        },
-        {
-          name: 10,
-          value: 3100
-        },
-        {
-          name: 15,
-          value: 2350
-        },
-        {
-          name: 20,
-          value: 100
-        }, {
-          name: 25,
-          value: 1500
-        }, {
-          name: 30,
-          value: 10
-        }, {
-          name: 35,
-          value: 10000
-        }
-      ]
-    }
-  ];
+  multi: any[] = data;
+  // [
+  //   {
+  //     name: 'Green',
+  //     series: [
+  //       {
+  //         name: 5,
+  //         value: 2650
+  //       },
+  //       {
+  //         name: 10,
+  //         value: 2800      
+  //       },
+  //       {
+  //         name: 15,
+  //         value: 2000
+  //       },
+  //       {
+  //         name: 20,
+  //         value: 2800      
+  //       }, 
+  //       {
+  //         name: 25,
+  //         value: 9100      
+  //       }, 
+  //       {
+  //         name: 30,
+  //         value: 1300      
+  //       },
+  //       {
+  //         name: 35,
+  //         value: 150      
+  //       },
+  //     ]
+  //   },
+  //   {
+  //     name: 'Red',
+  //     series: [
+  //       {
+  //         name: 5,
+  //         value: 2500
+  //       },
+  //       {
+  //         name: 10,
+  //         value: 3100
+  //       },
+  //       {
+  //         name: 15,
+  //         value: 2350
+  //       },
+  //       {
+  //         name: 20,
+  //         value: 100
+  //       }, {
+  //         name: 25,
+  //         value: 1500
+  //       }, {
+  //         name: 30,
+  //         value: 10
+  //       }, {
+  //         name: 35,
+  //         value: 10000
+  //       }
+  //     ]
+  //   }
+  // ];
   
   view: any[] = [700, 400];
 
@@ -92,7 +94,6 @@ export class LineChart1Component implements OnInit {
   };
 
   constructor() { 
-    
   }
 
   ngOnInit() {
