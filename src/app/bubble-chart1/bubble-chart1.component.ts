@@ -6,8 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./bubble-chart1.component.css']
 })
 export class BubbleChart1Component implements OnInit {
- 
- 
+
+
   multi: any[] = [
     {
       "name": "Germany",
