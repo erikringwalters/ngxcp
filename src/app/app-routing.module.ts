@@ -1,3 +1,4 @@
+import { PieChartComponent } from './pie-chart/pie-chart.component';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule, Routes } from '@angular/router';
@@ -16,6 +17,7 @@ const routes: Routes = [
   { path: 'bubble-chart1', component: BubbleChart1Component },
   { path: 'grouped-vertical-bar-chart1', component: GroupedVerticalBarChart1Component },
   { path: 'scatterplot1', component: Scatterplot1Component },
+  { path: 'piechart', component: PieChartComponent}
 
 ];
 
