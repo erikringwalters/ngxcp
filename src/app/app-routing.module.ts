@@ -10,6 +10,7 @@ import { HomeComponent } from './home/home.component';
 import { Scatterplot1Component } from './scatterplot1/scatterplot1.component';
 import { VerticalBarChart1Component } from './vertical-bar-chart1/vertical-bar-chart1.component';
 import { Plotly1Component } from './plotly1/plotly1.component';
+import { Plotly1WrapperComponent } from './plotly1-wrapper/plotly1-wrapper.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full'},
@@ -21,9 +22,7 @@ const routes: Routes = [
   { path: 'scatterplot1', component: Scatterplot1Component },
   { path: 'piechart', component: PieChartComponent },
   { path: 'vertical-bar-chart1', component: VerticalBarChart1Component },
-  { path: 'plotly1', component: Plotly1Component }
-
-
+  { path: 'plotly1-wrapper', component: Plotly1WrapperComponent }
 ];
 
 @NgModule({

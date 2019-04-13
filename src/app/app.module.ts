@@ -5,6 +5,9 @@ import { AppComponent } from './app.component';
 import { NgxChartsModule } from '@swimlane/ngx-charts';
 import { AppRoutingModule } from './app-routing.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import * as PlotlyJS from 'plotly.js/dist/plotly.js';
+import { PlotlyModule } from 'angular-plotly.js';
+
 
 import { HomeComponent } from './home/home.component';
 import { LineChart1Component } from './line-chart1/line-chart1.component';
@@ -15,8 +18,10 @@ import { Scatterplot1Component } from './scatterplot1/scatterplot1.component';
 import { PieChartComponent } from './pie-chart/pie-chart.component';
 import { VerticalBarChart1Component } from './vertical-bar-chart1/vertical-bar-chart1.component';
 import { Plotly1Component } from './plotly1/plotly1.component';
+import { Plotly1WrapperComponent } from './plotly1-wrapper/plotly1-wrapper.component';
 
 
+PlotlyModule.plotlyjs = PlotlyJS;
 
 @NgModule({
   declarations: [
@@ -29,13 +34,15 @@ import { Plotly1Component } from './plotly1/plotly1.component';
     Scatterplot1Component,
     PieChartComponent,
     VerticalBarChart1Component,
-    Plotly1Component
+    Plotly1Component,
+    Plotly1WrapperComponent
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
     NgxChartsModule,
-    AppRoutingModule 
+    AppRoutingModule,
+    PlotlyModule
   ],
   providers: [],
   bootstrap: [AppComponent]
