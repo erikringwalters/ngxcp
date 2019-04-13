@@ -13,6 +13,5 @@ import { slideInAnimation } from './animations';
   ]
 })
 export class AppComponent {
-  title = 'ngxcp';
- 
+
 }

@@ -13,6 +13,7 @@ import { BubbleChart1Component } from './bubble-chart1/bubble-chart1.component';
 import { GroupedVerticalBarChart1Component } from './grouped-vertical-bar-chart1/grouped-vertical-bar-chart1.component';
 import { Scatterplot1Component } from './scatterplot1/scatterplot1.component';
 import { PieChartComponent } from './pie-chart/pie-chart.component';
+import { VerticalBarChart1Component } from './vertical-bar-chart1/vertical-bar-chart1.component';
 
 
 
@@ -25,7 +26,8 @@ import { PieChartComponent } from './pie-chart/pie-chart.component';
     BubbleChart1Component,
     GroupedVerticalBarChart1Component,
     Scatterplot1Component,
-    PieChartComponent
+    PieChartComponent,
+    VerticalBarChart1Component
   ],
   imports: [
     BrowserModule,
