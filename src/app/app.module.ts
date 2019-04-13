@@ -14,6 +14,7 @@ import { GroupedVerticalBarChart1Component } from './grouped-vertical-bar-chart1
 import { Scatterplot1Component } from './scatterplot1/scatterplot1.component';
 import { PieChartComponent } from './pie-chart/pie-chart.component';
 import { VerticalBarChart1Component } from './vertical-bar-chart1/vertical-bar-chart1.component';
+import { Plotly1Component } from './plotly1/plotly1.component';
 
 
 
@@ -27,7 +28,8 @@ import { VerticalBarChart1Component } from './vertical-bar-chart1/vertical-bar-c
     GroupedVerticalBarChart1Component,
     Scatterplot1Component,
     PieChartComponent,
-    VerticalBarChart1Component
+    VerticalBarChart1Component,
+    Plotly1Component
   ],
   imports: [
     BrowserModule,
