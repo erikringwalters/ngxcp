@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class Plotly1WrapperComponent implements OnInit {
 
+  title = "Plotly 1";
   constructor() { }
 
   ngOnInit() {

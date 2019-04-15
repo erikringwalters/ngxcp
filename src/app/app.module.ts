@@ -20,6 +20,7 @@ import { VerticalBarChart1Component } from './vertical-bar-chart1/vertical-bar-c
 import { Plotly1Component } from './plotly1/plotly1.component';
 import { Plotly1WrapperComponent } from './plotly1-wrapper/plotly1-wrapper.component';
 import { Plotly2Component } from './plotly2/plotly2.component';
+import { Plotly2WrapperComponent } from './plotly2-wrapper/plotly2-wrapper.component';
 
 
 PlotlyModule.plotlyjs = PlotlyJS;
@@ -37,7 +38,8 @@ PlotlyModule.plotlyjs = PlotlyJS;
     VerticalBarChart1Component,
     Plotly1Component,
     Plotly1WrapperComponent,
-    Plotly2Component
+    Plotly2Component,
+    Plotly2WrapperComponent
   ],
   imports: [
     BrowserModule,
