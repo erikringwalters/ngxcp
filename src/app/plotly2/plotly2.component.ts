@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+//import data from '../../data/np_rec_out_company.txt';
+
 
 @Component({
   selector: 'app-plotly2',
@@ -7,6 +9,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class Plotly2Component implements OnInit {
 
+ // multi: any =  data;
   constructor() { }
 
   ngOnInit() {
