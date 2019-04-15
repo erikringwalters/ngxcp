@@ -16,7 +16,7 @@ export class Plotly2Component implements OnInit {
   }
   public graph = {
     data: [
-        { x: [1, 2, 3, 4, 5, 6, 7, 9], y: [2, 6, 3, 10, 12, 1, 20, 10], type: 'scatter', mode: 'points', marker: {color: 'black', background: 'blue'} },
+        { x: [1, 2, 3, 4, 5, 6, 7, 9], y: [2, 6, 3, 10, 12, 1, 20, 10], type: 'scatter', mode: 'markers', marker: {color: 'black', background: 'blue'} },
        // { x: [1, 2, 3, 4, 5, 6, 7, 8], y: [2, 5, 3, 4, 5, 6, 7, 8], type: 'bar' },
     ],
     layout: {width: 1000, height: 500, title: 'A Fancy Plot'}
