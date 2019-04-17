@@ -21,10 +21,10 @@ export class Plotly2Component implements OnInit {
   }
   public graph = {
     data: [
-        { x: this.foo, y: this.dat, type: 'scatter', mode: 'markers', marker: {color: 'black'} },
-        // { x: [1, 2, 3, 4, 5, 6, 7, 8, 9], y: [2, 5, 3, 4, 5, 6, 7, 8], type: 'bar' },
+        { x: this.foo, y: this.dat, type: 'scatter', mode: 'markers', marker: {color: 'darkred'} },
+        //{ x: this.foo, y: this.dat, type: 'bar' },
     ],
-    layout: {width: 1000, height: 500, title: 'A Fancy Plot'}
+    layout: {width: 1000, height: 500, title: 'A Fancy Plot Using Real Data'}
 };
 
 
