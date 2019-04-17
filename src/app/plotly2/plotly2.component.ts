@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import data from '../../data/np_rec_out_company.js';
+import data from '../../data/np_rec_out_company.json';
 
 
 @Component({
@@ -9,17 +9,23 @@ import data from '../../data/np_rec_out_company.js';
 })
 export class Plotly2Component implements OnInit {
 
+  dat: number[] = data;
+  foo = new Array<number>(4000); // create an empty array with length 4k
 
-  dat: Array<number> = data;
   constructor() { }
 
   ngOnInit() {
+    for(var i = 0; i < this.foo.length; i++){
+      this.foo[i] = i;
+    }
   }
   public graph = {
     data: [
-        { x: [1, 2, 3, 4, 5, 6, 7, 9], y: this.dat, type: 'scatter', mode: 'markers', marker: {color: 'black', background: 'blue'} },
-       // { x: [1, 2, 3, 4, 5, 6, 7, 8], y: [2, 5, 3, 4, 5, 6, 7, 8], type: 'bar' },
+        { x: this.foo, y: this.dat, type: 'scatter', mode: 'markers', marker: {color: 'black'} },
+        // { x: [1, 2, 3, 4, 5, 6, 7, 8, 9], y: [2, 5, 3, 4, 5, 6, 7, 8], type: 'bar' },
     ],
     layout: {width: 1000, height: 500, title: 'A Fancy Plot'}
 };
+
+
 }
