@@ -15,16 +15,16 @@ export class Plotly2Component implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    for(var i = 0; i < this.foo.length; i++){
+    for(var i = 0; i < this.foo.length; i++) {
       this.foo[i] = i;
     }
   }
   public graph = {
     data: [
-        { x: this.foo, y: this.dat, type: 'scatter', mode: 'markers', marker: {color: 'darkred'} },
-        //{ x: this.foo, y: this.dat, type: 'bar' },
+        { x: this.foo, y: this.dat, type: 'scatter', mode: 'markers', marker: {color: 'darkred'}, layout: {hovermode: 'closest'} },
+        // { x: this.foo, y: this.dat, type: 'bar' },
     ],
-    layout: {width: 1000, height: 500, title: 'A Fancy Plot Using Real Data'}
+    layout: {width: 1000, height: 500, title: 'plotting all rec-out values'}
 };
 
 

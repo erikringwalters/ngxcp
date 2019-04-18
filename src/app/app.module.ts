@@ -21,6 +21,7 @@ import { Plotly1Component } from './plotly1/plotly1.component';
 import { Plotly1WrapperComponent } from './plotly1-wrapper/plotly1-wrapper.component';
 import { Plotly2Component } from './plotly2/plotly2.component';
 import { Plotly2WrapperComponent } from './plotly2-wrapper/plotly2-wrapper.component';
+import { Plotly3Component } from './plotly3/plotly3.component';
 
 
 PlotlyModule.plotlyjs = PlotlyJS;
@@ -39,7 +40,8 @@ PlotlyModule.plotlyjs = PlotlyJS;
     Plotly1Component,
     Plotly1WrapperComponent,
     Plotly2Component,
-    Plotly2WrapperComponent
+    Plotly2WrapperComponent,
+    Plotly3Component
   ],
   imports: [
     BrowserModule,
