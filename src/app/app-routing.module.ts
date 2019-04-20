@@ -12,6 +12,7 @@ import { VerticalBarChart1Component } from './vertical-bar-chart1/vertical-bar-c
 import { Plotly1Component } from './plotly1/plotly1.component';
 import { Plotly1WrapperComponent } from './plotly1-wrapper/plotly1-wrapper.component';
 import { Plotly2WrapperComponent } from './plotly2-wrapper/plotly2-wrapper.component';
+import { Plotly3Component } from './plotly3/plotly3.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full'},
@@ -24,7 +25,8 @@ const routes: Routes = [
   { path: 'piechart', component: PieChartComponent },
   { path: 'vertical-bar-chart1', component: VerticalBarChart1Component },
   { path: 'plotly1-wrapper', component: Plotly1WrapperComponent },
-  { path: 'plotly2-wrapper', component: Plotly2WrapperComponent }
+  { path: 'plotly2-wrapper', component: Plotly2WrapperComponent },
+  { path: 'plotly3', component: Plotly3Component },
 ];
 
 @NgModule({

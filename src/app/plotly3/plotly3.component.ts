@@ -4,7 +4,7 @@ import from_media from '../../data/from_media.json';
 
 @Component({
   selector: 'app-plotly3',
-  templateUrl: './plotly3.component.html',
+  template: '<plotly-plot [data]="graph.data" [layout]="graph.layout"></plotly-plot>',
   styleUrls: ['./plotly3.component.css']
 })
 export class Plotly3Component implements OnInit {
@@ -16,5 +16,13 @@ export class Plotly3Component implements OnInit {
 
   ngOnInit() {
   }
+
+  public graph = {
+    data: [
+        { x: this.dat, y: this.dat2, type: 'scatter', mode: 'markers', marker: {color: 'black'}, layout: {hovermode: 'closest'} },
+        // { x: this.foo, y: this.dat, type: 'bar' },
+    ],
+    layout: {width: 1000, height: 500, title: 'from media by to media std dev'}
+};
 
 }
